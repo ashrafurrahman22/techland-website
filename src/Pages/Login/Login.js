@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { useSignInWithEmailAndPassword, useSignInWithGoogle } from 'react-firebase-hooks/auth';
+import { useSignInWithEmailAndPassword, useSignInWithGithub, useSignInWithGoogle } from 'react-firebase-hooks/auth';
 import auth from '../../firebase.init';
 import { useForm } from "react-hook-form";
 import { Link, useNavigate, useLocation } from 'react-router-dom';
@@ -10,6 +10,8 @@ import github from '../../assets/Social icon/github.png';
 
 const Login = () => {
     const [signInWithGoogle, user1, loading1, error1] = useSignInWithGoogle(auth);
+    const [signInWithGithub, user2, loading2, error2] = useSignInWithGithub(auth);
+
     const { register, formState: { errors }, handleSubmit } = useForm();
     const [
         signInWithEmailAndPassword,
@@ -31,11 +33,11 @@ const Login = () => {
     //     }
     // }, [token, from, navigate])
 
-    if (loading || loading1) {
+    if (loading || loading1 || loading2) {
         return <Loading></Loading>
     }
 
-    if(error || error1){
+    if(error || error1 || error2){
         signInError= <p className='text-red-500'><small>{error?.message || error1?.message }</small></p>
     }
 
@@ -112,7 +114,7 @@ const Login = () => {
                         Continue with Google</button>
                     
                     <button
-                        onClick={() => signInWithGoogle()}
+                        onClick={() => signInWithGithub()}
                         className="btn btn-outline"
                     >
                         <img className='w-max mr-3' src={github} alt="" />

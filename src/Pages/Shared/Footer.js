@@ -2,13 +2,13 @@ import React from 'react';
 import logo from '../../assets/img/techland-logo.png';
 
 const Footer = () => {
+
+    const today = new Date();
+    const year = today.getFullYear();
+
     return (
         <footer className="p-10">
             <div className='footer'>
-            <div>
-            <img className='bg-slate-500 w-40 mx-auto p-5 rounded-lg' src={logo} alt="" />
-            <p><small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, minus.</small></p>
-            </div>
                 <div>
                     <span className="footer-title">Services</span>
                     <a className="link link-hover">Branding</a>
@@ -31,7 +31,7 @@ const Footer = () => {
                 </div>
             </div>
             <div className='my-6 text-center'>
-                <p>Copyright © 2022 - All right reserved</p>
+                <p>Copyright © {year} - All rights reserved by TechLand</p>
             </div>
         </footer>
     );

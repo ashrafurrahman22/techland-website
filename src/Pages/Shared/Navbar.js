@@ -3,6 +3,7 @@ import React from 'react';
 import { useAuthState } from 'react-firebase-hooks/auth';
 import { Link } from 'react-router-dom';
 import auth from '../../firebase.init';
+import logo from '../../assets/img/techland-logo.png';
 
 const Navbar = () => {
 
@@ -17,8 +18,9 @@ const Navbar = () => {
         <li><Link to="/">Home</Link></li>
         <li><Link to="/blogs">Blogs</Link></li>
         <li><Link to="/review">Review</Link></li>
-        <li><Link to="/contact">Contact</Link></li>
-        <li><Link to="/about">About</Link></li>
+        {
+            user && <li><Link to="/myorders">My Orders</Link></li>
+        }
         {
             user && <li><Link to="/dashboard">Dashboard</Link></li>
         }
@@ -36,7 +38,7 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <a className="btn btn-ghost normal-case text-xl">
-                    TechLand BD
+                <img className='bg-slate-500 w-40 mx-auto p-5 rounded-lg' src={logo} alt="" />
                 </a>
             </div>
             <div className="navbar-center hidden lg:flex">

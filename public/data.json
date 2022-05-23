@@ -1,2 +1,50 @@
 [
+    {
+        "name": "Patriot 4GB DDR3 1333MHz Desktop RAM",
+        "price": "50",
+        "description": "Patriot Memory's Signature Line DDR3 Non-ECC Unbuffered memory delivers quality, reliability and performance expected for today's computer needs. These 4GB modules are designed to run at PC3-10600 (1333MHz) at CAS 9 latency timings.",
+        "available" : "300",
+        "minOrderQuantity" : "100",
+        "img": "https://www.computerhope.com/cdn/computer-memory.png"
+    },
+    {
+        "name": "Asus Geforce Gt 730 2GB GDDR5 Graphics Card",
+        "price": "220",
+        "description": "Asus Geforce Gt 730 2GB GDDR5 Graphics Card is a low noise graphics card offered by Asus. Engineered with a highly-efficient 0dB thermal design, it dissipates heat in complete silence — making GT 730 the perfect choice for your slimline home-theater PC (HTPC) build.",
+        "available" : "100",
+        "minOrderQuantity" : "40",
+        "img": "https://5.imimg.com/data5/AA/TH/FH/SELLER-80846385/computer-graphics-cards-500x500.jpg"
+    },
+    {
+        "name": "intel Core i5-9500",
+        "price": "60",
+        "description": "This i5-9500 Processor comes with a Intel UHD Graphics 630 graphics. This 9th gen Coffee Lake microarchitecture is manufactured with the 14nm process that comes with six cores but lacks in HyperThreading. As this chip is updated to the latest BIOS revision, it nicely fits into any Intel 300-series motherboard.",
+        "available" : "280",
+        "minOrderQuantity" : "80",
+        "img": "https://www.bdstall.com/asset/product-image/giant_57606.jpg"
+    },
+    {
+        "name": "Western Digital 120GB M.2 SSD",
+        "price": "125",
+        "description": "Western Digital 120GB M.2 SSDs boost the everyday computing experience in your desktop or laptop desktop PC for fast performance and reliability.You can browse the web, play a game, or simply start your system in a flash.It is  the lowest power consuming drives in the industry with less power used in your laptop runs longer.",
+        "available" : "145",
+        "minOrderQuantity" : "70",
+        "img": "https://www.startech.com.bd/image/cache/catalog/ssd/western/120gb/wd-120gb-500x500.jpg"
+    },
+    {
+        "name": "DeepCool UD551 ARGB LED Ring CPU Air Cooler",
+        "price": "87",
+        "description": "Cooling With A Fan Mounted Top-Down Quickly Dissipates Heat Directly Over The Heat Sink Covering The CPU Which Also Introduces Additional Airflow Over Motherboard Components Surrounding The Socket Such As The VRM And RAM.",
+        "available" : "194",
+        "minOrderQuantity" : "90",
+        "img": "https://www.techlandbd.com/image/cache/catalog/CPU-Cooler/DEEPCOOL/UD551/UD551-01.jpg-550x550.jpg"
+    },
+    {
+        "name": "Viltrox EF-EOS M Lens Mount Adapter for Canon Cameras",
+        "price": "170",
+        "description": "This Lens Mount Adapter from Viltrox is designed to allow a Canon EF or EF-S-mount lens to be used with a Canon EF-M mount camera with full electronic communication. The underside of this adapter's detachable tripod foot is tapped with a 1/4'-20 accessory thread, providing direct attachment to tripods or quick release plates that feature 1/4'-20 mounts.",
+        "available" : "70",
+        "minOrderQuantity" : "30",
+        "img": "https://www.startech.com.bd/image/cache/catalog/lens-adapter/viltrox/ef-eos-m-lens-mount/ef-eos-m-lens-mount-500x500.jpg"
+    }
 ]
