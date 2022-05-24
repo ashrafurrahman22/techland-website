@@ -1,13 +1,16 @@
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import Blogs from './Pages/Blogs/Blogs';
+import AddAreview from './Pages/Dashboard/AddAreview/AddAreview';
 import Dashboard from './Pages/Dashboard/Dashboard';
+import MyProfile from './Pages/Dashboard/MyProfile/MyProfile';
+import Orders from './Pages/Dashboard/Orders/Orders';
 import Home from './Pages/Home/Home';
-import Myorders from './Pages/Home/Myorders/Myorders';
 import Purchase from './Pages/Home/Tools/Purchase/Purchase';
 import Login from './Pages/Login/Login';
 import RequireAuth from './Pages/Login/RequireAuth';
 import Signup from './Pages/Login/Signup';
+import Myportfolio from './Pages/Myportfolio/Myportfolio';
 import PageNotFound from './Pages/PageNotFound/PageNotFound';
 import Review from './Pages/Reviews/Review';
 import Footer from './Pages/Shared/Footer';
@@ -20,14 +23,18 @@ function App() {
         <Routes>
             <Route path='/' element={ <Home></Home> }></Route>
             <Route path='/blogs' element={ <Blogs></Blogs> }></Route>
-            <Route path='/myorders' element={ <Myorders></Myorders> }></Route>
             <Route path='/review' element={ <Review></Review> }></Route>
+            <Route path='/myportfolio' element={ <Myportfolio></Myportfolio> }></Route>
             <Route path='/product/:productId' element={ 
               <RequireAuth>
                 <Purchase></Purchase>
               </RequireAuth>
              }></Route>
-            <Route path='/dashboard' element={ <Dashboard></Dashboard> }></Route>
+            <Route path='/dashboard' element={ <Dashboard></Dashboard> }>
+            <Route index element={ <MyProfile></MyProfile> }></Route>
+          <Route path="orders" element={ <Orders></Orders> }></Route>
+          <Route path="addAreview" element={ <AddAreview></AddAreview> }></Route>
+            </Route>
             <Route path='/login' element={ <Login></Login> }></Route>
             <Route path='/signup' element={<Signup></Signup>}></Route>
             <Route path='*' element={ <PageNotFound></PageNotFound> } ></Route>
