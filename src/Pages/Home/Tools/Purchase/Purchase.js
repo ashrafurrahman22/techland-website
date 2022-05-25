@@ -83,7 +83,7 @@ const Purchase = () => {
         <label class="label">
     <span class="label-text">Email</span>
   </label>
-  <input type="text" name='email' value={user?.email} class="input input-bordered w-full max-w-xs cursor-not-allowed"
+  <input type="email" name='email' value={user?.email} class="input input-bordered w-full max-w-xs cursor-not-allowed"
   {...register("email")}
   required />
         <label class="label">

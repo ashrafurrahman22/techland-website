@@ -1,5 +1,6 @@
 import React from 'react';
 import { useAuthState } from 'react-firebase-hooks/auth';
+import { Link } from 'react-router-dom';
 import auth from '../../../firebase.init';
 
 const MyProfile = () => {
@@ -21,6 +22,7 @@ const MyProfile = () => {
                 <h3 className="text-xl ">
                   Phone: {user?.phoneNumber}
                 </h3>
+                <Link className='btn' to='/dashboard/editProfile'>Edit Profile</Link>
             </div>
         </div>
     );

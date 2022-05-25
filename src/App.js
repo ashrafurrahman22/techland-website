@@ -17,6 +17,7 @@ import Footer from './Pages/Shared/Footer';
 import Navbar from './Pages/Shared/Navbar';
 import { ToastContainer } from 'react-toastify';
   import 'react-toastify/dist/ReactToastify.css';
+import EditProfile from './Pages/Dashboard/EditProfile/EditProfile';
 
 function App() {
   return (
@@ -34,6 +35,7 @@ function App() {
              }></Route>
             <Route path='/dashboard' element={ <Dashboard></Dashboard> }>
             <Route index element={ <MyProfile></MyProfile> }></Route>
+            <Route path='/dashboard/editProfile' element={ <EditProfile></EditProfile> }></Route>
           <Route path="orders" element={ <Orders></Orders> }></Route>
           <Route path="addAreview" element={ <AddAreview></AddAreview> }></Route>
             </Route>
