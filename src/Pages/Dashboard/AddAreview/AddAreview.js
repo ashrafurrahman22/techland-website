@@ -10,20 +10,28 @@ const AddAreview = () => {
     const { register, handleSubmit, watch, reset, setError, formState: { errors } } = useForm();
 
     const hanldeReview = event =>{
-        
+
+      if(event.ratings > 5 || event.ratings < 1){
+          alert('ratings should be under 1 to 5')
+      }
+      else{
+        console.log(event);
         fetch('http://localhost:5000/review', {
-        method : "POST", 
-        headers : {
-          'content-type' : 'application/json'
-        },
-        body :JSON.stringify(event)
-      })
-      .then(res => res.json())
-      .then(data => {
-        toast.success('You Successfully added a review')
-        console.log(data)
-        reset();
-      } )
+          method : "POST", 
+          headers : {
+            'content-type' : 'application/json'
+          },
+          body :JSON.stringify(event)
+        })
+        .then(res => res.json())
+        .then(data => {
+          toast.success('You Successfully added a review')
+          console.log(data)
+          reset();
+        } )
+
+      }
+      
     }
 
     return (
@@ -39,6 +47,10 @@ const AddAreview = () => {
     <span class="label-text">Email</span>
   </label>
   <input type="text" placeholder="Your email" readOnly value={user?.email} class="input input-bordered w-full max-w-xs mb-2 cursor-not-allowed" {...register("email")} />
+  <label class="label">
+    <span class="label-text">Ratings</span>
+  </label>
+  <input type="number" placeholder="Your ratings" class="input input-bordered w-full max-w-xs mb-2" {...register("ratings")} required/>
   <label class="label">
     <span class="label-text">Review</span>
   </label>

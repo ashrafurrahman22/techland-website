@@ -13,7 +13,7 @@ const SingleTool = ({product}) => {
 
     return (
         <div>
-            <div class="card w-96 bg-base-100 shadow-xl">
+            <div class="card bg-base-100 shadow-xl">
   <figure class="px-5 pt-5">
     <img src={img} alt="Shoes" class="rounded-xl max-w-sm" />
   </figure>

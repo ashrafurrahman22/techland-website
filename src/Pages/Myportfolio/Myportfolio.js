@@ -30,6 +30,7 @@ const Myportfolio = () => {
             <ul className='text-2xl list-disc'>
                         <li>html & html5</li>
                         <li>Css & Css3</li>
+                        <li>Css Framework : Bootstrap & Tailwind</li>
                         <li>Language: Javascript</li>
                         <li>Library: React</li>
                     </ul>

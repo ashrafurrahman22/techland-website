@@ -70,30 +70,32 @@ const Purchase = () => {
     <span class="label-text">Product Name</span>
   </label>
         <input value={name} type="text" name='product' class="input input-bordered w-full max-w-xs cursor-not-allowed"
-        {...register("productName")}
+        {...register("productName")} required
         />
 
         <label class="label">
     <span class="label-text">Name</span>
   </label>
         <input value={user?.displayName} type="text" name='name' placeholder="Your Name" class="input input-bordered w-full max-w-xs cursor-not-allowed" 
-        {...register("name")}
+        {...register("name")} required
         />
         <label class="label">
     <span class="label-text">Email</span>
   </label>
-  <input type="text" name='email' value={user?.email} class="input input-bordered w-full max-w-xs cursor-not-allowed" />
+  <input type="text" name='email' value={user?.email} class="input input-bordered w-full max-w-xs cursor-not-allowed"
+  {...register("email")}
+  required />
         <label class="label">
     <span class="label-text">Address</span>
   </label>
   <input type="text" name='address' placeholder='Your Address' class="input input-bordered w-full max-w-xs" 
-  {...register("address")}
+  {...register("address")} required
   />
         <label class="label">
     <span class="label-text">Phone Number</span>
   </label>
   <input type="text" name='phone' placeholder='Contact' class="input input-bordered w-full max-w-xs" 
-  {...register("phone")}
+  {...register("phone")} required
   />
         <label class="label">
     <span class="label-text">Available Quantity</span>
@@ -112,7 +114,7 @@ const Purchase = () => {
     max: {
       value: parseInt(available),
       message: 'Order Should be less than available quantity' // JS only: <p>error message</p> TS only support string
-    } })} />
+    } })} required />
   {errors?.order && <p className='text-sm'><span className='text-pink-500'>{errors?.order.message}</span></p>}
         <label class="label">
     <span class="label-text">Price Per Quantity</span>
