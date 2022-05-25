@@ -3,10 +3,9 @@ import { useCreateUserWithEmailAndPassword, useSignInWithGithub, useSignInWithGo
 import auth from '../../firebase.init';
 import { useForm } from "react-hook-form";
 import Loading from '../Shared/Loading';
-import { Link, useNavigate } from 'react-router-dom';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 import google from '../../assets/Social icon/google.png';
 import github from '../../assets/Social icon/github.png';
-// import useToken from '../../hooks/useToken';
 
 const SignUp = () => {
     const [signInWithGoogle, user, loading, error] = useSignInWithGoogle(auth);
@@ -22,11 +21,16 @@ const SignUp = () => {
 
     const [updateProfile, updating, updateError] = useUpdateProfile(auth);
 
-    // const [token]  = useToken(user || gUser);
-
     const navigate = useNavigate();
+    const location = useLocation();
+    let from = location.state?.from?.pathname || "/dashboard";
 
     let signInError;
+
+    if(user || user1 || user2){
+        navigate(from, { replace: true });
+        console.log(user);
+      }
 
     if (loading || loading1 || updating || loading2) {
         return <Loading></Loading>

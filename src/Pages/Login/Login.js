@@ -6,13 +6,13 @@ import { Link, useNavigate, useLocation } from 'react-router-dom';
 import Loading from '../Shared/Loading';
 import google from '../../assets/Social icon/google.png';
 import github from '../../assets/Social icon/github.png';
-// import useToken from '../../hooks/useToken';
 
 const Login = () => {
     const [signInWithGoogle, user1, loading1, error1] = useSignInWithGoogle(auth);
     const [signInWithGithub, user2, loading2, error2] = useSignInWithGithub(auth);
 
     const { register, formState: { errors }, handleSubmit } = useForm();
+
     const [
         signInWithEmailAndPassword,
         user,
@@ -20,18 +20,15 @@ const Login = () => {
         error,
     ] = useSignInWithEmailAndPassword(auth);
 
-    // const [token] = useToken(user || gUser);
-
     let signInError;
     const navigate = useNavigate();
     const location = useLocation();
-    let from = location.state?.from?.pathname || "/";
+    let from = location.state?.from?.pathname || "/dashboard";
 
-    // useEffect( () =>{
-    //     if (token) {
-    //         navigate(from, { replace: true });
-    //     }
-    // }, [token, from, navigate])
+    if(user || user1 || user2){
+        navigate(from, { replace: true });
+        console.log(user);
+      }
 
     if (loading || loading1 || loading2) {
         return <Loading></Loading>

@@ -5,6 +5,7 @@ import useProductDetail from '../../../../Hooks/useProductDetails';
 import { useAuthState } from 'react-firebase-hooks/auth';
 import { toast } from 'react-toastify';
 import { useForm } from 'react-hook-form';
+import purchase from '../../../../assets/img/purchase.png';
 
 
 const Purchase = () => {
@@ -54,7 +55,7 @@ const Purchase = () => {
     <p className='text-left'><small>{description}</small></p>
     </div>
     <div class="card-actions">
-<label for="my-modal" class="btn modal-button">Purchase</label>
+<label for="my-modal" class="btn modal-button">Purchase <img src={purchase} className='w-6 rounded-xl' alt="" /></label>
 
 <input type="checkbox" id="my-modal" class="modal-toggle" />
 <div class="modal">

@@ -1,5 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
+import purchase from '../../../../assets/img/purchase.png';
 
 const SingleTool = ({product}) => {
 
@@ -26,7 +27,9 @@ const SingleTool = ({product}) => {
     <h3 className='text-xl font-bold'>Price: ${price}</h3>
     </div>
     <div class="card-actions">
-      <button onClick={()=>navigateToProductDetails(product._id)} class="btn btn-primary">Purchase</button>
+      <button onClick={()=>navigateToProductDetails(product._id)} class="btn btn-primary">
+        
+        Purchase <img src={purchase} className='w-6 rounded-xl' alt="" /></button>
     </div>
   </div>
 </div>
