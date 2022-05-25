@@ -118,8 +118,9 @@ const Purchase = () => {
     <span class="label-text">Price Per Quantity</span>
   </label>
   <input type="text" value={price}  class="input input-bordered w-full max-w-xs cursor-not-allowed" {...register("price")} />
-
-        <input type="submit" value='Order' class="input input-bordered w-full max-w-xs cursor-pointer my-3" />
+  <input type="submit" value='Order' class="input input-bordered w-full max-w-xs cursor-pointer my-3" />
+  
+        
         </form>
         </div>
 </div>
