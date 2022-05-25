@@ -8,7 +8,7 @@ const SingleReview = (props) => {
         <div>
            <div class="card bg-base-100 shadow-xl">
   <div class="card-body">
-    <h2 class="card-title text-center">{name}</h2>
+    <h2 class="text-2xl font-bold text-center">{name}</h2>
     <h4 class="card-title">{email}</h4>
     <h4 class="card-title">Ratings : {ratings}</h4>
 

@@ -8,7 +8,7 @@ const BusinessSummary = () => {
             <div style={{
             background: `url(${bgSummary})`,
             backgroundSize: 'cover'
-        }} className='grid lg: grid-cols-4 gap-6'>
+        }} className='grid lg:grid-cols-4 sm:grid-cols-1 gap-6'>
                 <div className='text-center'>
                 <h2 className="text-3xl font-bold ">77+</h2>
                 <p>Countries</p>

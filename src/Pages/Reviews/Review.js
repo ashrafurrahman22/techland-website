@@ -9,7 +9,7 @@ const Review = () => {
     return (
         <div>
             <h2 className='text-center text-3xl font-semibold'>Reviews</h2>
-            <div className='grid lg:grid-cols-3 gap-8'>
+            <div className='grid lg:grid-cols-3 sm:grid-cols-1 gap-8'>
             {
                 reviews.slice(-3).map(review => 
                 <SingleReview
