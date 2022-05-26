@@ -4,7 +4,7 @@ const usePurchase = () =>{
     const [purchases, setPurchases] = useState([]);
 
     useEffect( ()=>{
-        fetch('http://localhost:5000/purchase')
+        fetch('https://ancient-ocean-57727.herokuapp.com/purchase')
         .then(res => res.json())
         .then(data => setPurchases(data))
     } , [purchases])

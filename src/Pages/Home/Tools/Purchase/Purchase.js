@@ -27,7 +27,7 @@ const Purchase = () => {
 
     const handlePurchase = (event) =>{
 
-      fetch('http://localhost:5000/purchase', {
+      fetch('https://ancient-ocean-57727.herokuapp.com/purchase', {
         method : "POST", 
         headers : {
           'content-type' : 'application/json'

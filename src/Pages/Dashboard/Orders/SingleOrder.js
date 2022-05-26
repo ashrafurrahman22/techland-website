@@ -11,7 +11,7 @@ const SingleOrder = ({purchase}) => {
     const handleDelete = id =>{
         const procede = window.confirm('Are You Sure?');
         if(procede){
-          const url = `http://localhost:5000/purchase/${id}`
+          const url = `https://ancient-ocean-57727.herokuapp.com/purchase/${id}`
           fetch(url, {
             method : "DELETE"
           })
