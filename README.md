@@ -9,11 +9,11 @@ Tech Land is a Computer hardware, software & service manufacture & supplier comp
 * Purchase or Cancel System
 
 # Used Technologies
-*Language: Javascript
-*Library : React
-*Backend Runtime ENV : NodeJS
-*NodeJS framework: ExpressJS
-*Database: MongoDb
+* Language: Javascript
+* Library : React
+* Backend Runtime ENV : NodeJS
+* NodeJS framework: ExpressJS
+* Database: MongoDb
 
 
 # Live Website Link :
