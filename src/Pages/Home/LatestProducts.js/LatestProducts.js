@@ -2,38 +2,40 @@ import React from 'react';
 
 const LatestProducts = () => {
     return (
-        <div className='my-10'>
-            <h2 className='text-3xl my-5 font-bold text-center uppercase'>Latest Products</h2>
+        <div style={{fontFamily:"aleo"}} className='my-10 text-black'>
+            <h3 className='text-3xl my-5 text-white font-semibold text-center uppercase'>Latest Phones</h3>
             <div className='grid lg:grid-cols-3 sm:grid-cols-1 gap-8'>
                 {/* product div */}
                 <div>
                 <div class="card card-compact bg-base-100 shadow-xl">
-  <figure><img src="https://www.startech.com.bd/image/cache/catalog/hdd/toshiba/s300-pro/s300-pro-01-500x500.jpg" alt="Shoes" /></figure>
+  <figure><img src="https://www.online-sciences.com/wp-content/uploads/2021/09/Apple-iPhone-13-Pro-Max-45.webp" alt="Shoes" /></figure>
   <div class="card-body">
-    <h2 class="card-title">Toshiba S300 Pro 6TB 7200rpm 3.5" Surveillance Hard Drive</h2>
-    <p>The Toshiba S300 Pro 6TB 7200rpm 3.5" Surveillance Hard Drive has been designed to satisfy your special needs and is constructed for 24/7 reliability and performance. The S300 Pro has been designed and tested to support up to 64 excessive decision cameras, allowing bendy scalability for your protection camera structures.</p>
-    <h4 class="card-title">Price : $300</h4>
+    <h2 class="card-title">Iphone 13 Pro Max</h2>
+    <p>The iPhone 13 Pro and iPhone 13 Pro Max are smartphones designed, developed, and marketed by Apple Inc. They are the flagship smartphones in the fifteenth generation of the iPhone.</p>
+    <h3 class="card-title font-semibold">Price : $420</h3>
+    <button className='btn'>Buy Now</button>
   </div>
 </div>
                 </div>
                 <div>
                 <div class="card card-compact bg-base-100 shadow-xl">
-  <figure><img src="https://www.startech.com.bd/image/cache/catalog/water-liquid-cooling/ekwb/ek-quantum/ek-quantum-torque-hdc-01-500x500.jpg" alt="Shoes" /></figure>
+  <figure><img src="https://i0.wp.com/gegumall.com/wp-content/uploads/2022/01/latest-samsung-phones-with-price-and-specifications.jpg?fit=1920%2C1080&ssl=1" alt="Shoes" /></figure>
   <div class="card-body">
-    <h2 class="card-title">
-EKWB EK-Quantum Torque HDC 12 Black</h2>
-    <p>EKWB EK-Quantum Torque HDC 12 Black are EK's new minimalistic 12mm hard-tube compression fittings that's are designed for use with solid tubing such as Acrylic and PETG. It is featured with a non-intrusive, yet striking look, and with NO added branding at all. The locking ring prevents solid tube to be pulled out of the fitting by compressing the rubber gasket underneath the ring. </p>
-    <h4 class="card-title">Price : $230</h4>
+    <h2 class="card-title">Samsung M321</h2>
+    <p>Samsung Galaxy M13 is a mid-range Android smartphone manufactured by Samsung Electronics as a part of its Galaxy M series. This phone was announced on 27 May 2022.</p>
+    <h4 class="card-title">Price : $390</h4>
+    <button className='btn'>Buy Now</button>
   </div>
 </div>
                 </div>
                 <div>
                 <div class="card card-compact  bg-base-100 shadow-xl">
-  <figure><img src="https://www.startech.com.bd/image/cache/catalog/processor/AMD/ryzen-3-pro-4350g/-ryzen-3-pro-4350g-01-500x500.jpg" alt="Shoes" /></figure>
+  <figure><img src="https://images.techadvisor.com/cmsdata/slideshow/3797756/oneplus_9_pro-06.jpg" alt="Shoes" /></figure>
   <div class="card-body">
-    <h2 class="card-title">AMD Ryzen 3 PRO 4350G Processor (Tray)</h2>
-    <p>The AMD Ryzen 3 PRO 4350G is a quad-core CPU based on Zen architecture. Whether for work, play, or enjoyment, this AMD Ryzen desktop CPU provides powerful multitasking and multimedia performance at an affordable price. The AMD Ryzen CPU with Radeon Vega integrated graphics is the ideal combo for everyday computing. </p>
+    <h2 class="card-title">OnePlus 32A 5G</h2>
+    <p>The OnePlus Nord 25 is an Android-based smartphone manufactured by OnePlus, unveiled on 22 July 2021. It succeeds the original Nord, and is the sixth device in the Nord series.</p>
     <h4 class="card-title">Price : $270</h4>
+    <button className='btn'>Buy Now</button>
   </div>
 </div>
                 </div>

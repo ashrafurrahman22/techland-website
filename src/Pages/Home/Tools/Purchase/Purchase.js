@@ -44,7 +44,7 @@ const Purchase = () => {
     }
 
     return (
-        <div className='mx-auto lg:max-w-xl sm:max-w-sm'>
+        <div style={{fontFamily:"aleo"}} className='mx-auto lg:max-w-xl text-black sm:max-w-sm'>
             <div class="card w-96 bg-base-100 shadow-xl">
   <figure class="px-5 pt-5">
     <img src={img} alt="Shoes" class="rounded-xl max-w-sm" />
