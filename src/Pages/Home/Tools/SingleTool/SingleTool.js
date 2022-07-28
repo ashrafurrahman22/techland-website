@@ -19,7 +19,7 @@ const SingleTool = ({product}) => {
   <div class="card-body">
     <h2 class="card-title">{name}</h2>
     <p>{description}</p>
-    <h4 class="card-title">Price : $270</h4>
+    <h4 class="card-title">Price : ${price}</h4>
     <button className='btn'>Buy Now</button>
   </div>
 </div>

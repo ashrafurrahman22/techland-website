@@ -1,44 +1,44 @@
 [
     {
         "_id" : "1",
-        "name" : "HP EliteBook 25570p",
+        "name" : "Leveno Ideapad Slim",
         "description" : "Buy the HP Elitebook 2570P that is engineered for long-lasting performance. This laptop offers smooth processing and comes with a stylish design. In addition to this, you can easily this laptop in your backpack due to its lightweight and compact design",
-        "price" : "300",
+        "price" : "1700",
         "img" : "https://i.ibb.co/W34CW2n/lenovo-ideapad-slim-5-ryzen-5-laptop-2-jpg-250x250.webp"
     },
     {
-        "_id" : "1",
-        "name" : "HP EliteBook 25570p",
+        "_id" : "2",
+        "name" : "MSI Mordern 14 b11s",
         "description" : "Buy the HP Elitebook 2570P that is engineered for long-lasting performance. This laptop offers smooth processing and comes with a stylish design. In addition to this, you can easily this laptop in your backpack due to its lightweight and compact design",
-        "price" : "300",
-        "img" : "https://i.ibb.co/W34CW2n/lenovo-ideapad-slim-5-ryzen-5-laptop-2-jpg-250x250.webp"
+        "price" : "2200",
+        "img" : "https://i.ibb.co/L9pGg2d/msi-modern-14-b11sb-i5-laptop-3-jpg-250x250.webp"
     },
     {
-        "_id" : "1",
-        "name" : "HP EliteBook 25570p",
+        "_id" : "3",
+        "name" : "Ideapad 3 15iilo5",
         "description" : "Buy the HP Elitebook 2570P that is engineered for long-lasting performance. This laptop offers smooth processing and comes with a stylish design. In addition to this, you can easily this laptop in your backpack due to its lightweight and compact design",
-        "price" : "300",
-        "img" : "https://i.ibb.co/W34CW2n/lenovo-ideapad-slim-5-ryzen-5-laptop-2-jpg-250x250.webp"
+        "price" : "1500",
+        "img" : "https://i.ibb.co/x1z3s85/ideapad-3-15iil05-laptop-03-jpg-250x250.webp"
     },
     {
-        "_id" : "1",
-        "name" : "HP EliteBook 25570p",
+        "_id" : "4",
+        "name" : "HP Favilion 15h",
         "description" : "Buy the HP Elitebook 2570P that is engineered for long-lasting performance. This laptop offers smooth processing and comes with a stylish design. In addition to this, you can easily this laptop in your backpack due to its lightweight and compact design",
-        "price" : "300",
-        "img" : "https://i.ibb.co/W34CW2n/lenovo-ideapad-slim-5-ryzen-5-laptop-2-jpg-250x250.webp"
+        "price" : "2800",
+        "img" : "https://i.ibb.co/k6yFDSL/hp-pavilion-15-eh1890au-laptop-jpg-250x250.webp"
     },
     {
-        "_id" : "1",
-        "name" : "HP EliteBook 25570p",
+        "_id" : "5",
+        "name" : "Asus-x51ma-4",
         "description" : "Buy the HP Elitebook 2570P that is engineered for long-lasting performance. This laptop offers smooth processing and comes with a stylish design. In addition to this, you can easily this laptop in your backpack due to its lightweight and compact design",
-        "price" : "300",
-        "img" : "https://i.ibb.co/W34CW2n/lenovo-ideapad-slim-5-ryzen-5-laptop-2-jpg-250x250.webp"
+        "price" : "2100",
+        "img" : "https://i.ibb.co/NFYn3kv/asus-x515ma-4-jpg-250x250.webp"
     },
     {
-        "_id" : "1",
+        "_id" : "6",
         "name" : "HP EliteBook 25570p",
         "description" : "Buy the HP Elitebook 2570P that is engineered for long-lasting performance. This laptop offers smooth processing and comes with a stylish design. In addition to this, you can easily this laptop in your backpack due to its lightweight and compact design",
-        "price" : "300",
-        "img" : "https://i.ibb.co/W34CW2n/lenovo-ideapad-slim-5-ryzen-5-laptop-2-jpg-250x250.webp"
+        "price" : "1300",
+        "img" : "https://i.ibb.co/CM3j4GG/avita-liber-v-ryzen-5-star-silver-4-jpg-250x250.webp"
     }
 ]
