@@ -4,6 +4,7 @@ import { useAuthState } from 'react-firebase-hooks/auth';
 import { Link } from 'react-router-dom';
 import auth from '../../firebase.init';
 import logo from '../../assets/img/techland-logo.png';
+import '../Styles/Navbar.css'
 
 const Navbar = () => {
 
@@ -16,16 +17,13 @@ const Navbar = () => {
 
     const menuItems = <>
         <li><Link to="/">Home</Link></li>
-        <li><Link to="/blogs">Blogs</Link></li>
         <li><Link to="/review">Reviews</Link></li>
-        <li><Link to="/myportfolio">My Portfolio</Link></li>
-        {
-            user && <li><Link to="/dashboard">Dashboard</Link></li>
-        }
+        <li><Link to="/dashboard">Dashboard</Link></li>
+        
         <li>{user ? <button className="btn btn-ghost" onClick={logout} >Sign Out</button> : <Link to="/login">Login</Link>}</li>
     </>
     return (
-        <div className="navbar bg-base-100">
+        <div id='navbar' className="navbar bg-base-100 py-10">
             <div className="navbar-start">
                 <div className="dropdown">
                     <label tabIndex="0" className="btn btn-ghost lg:hidden">
@@ -35,11 +33,11 @@ const Navbar = () => {
                         {menuItems}
                     </ul>
                 </div>
-                <a className="btn btn-ghost normal-case text-xl">
+                <Link to='/' className="btn btn-ghost normal-case text-xl">
                 <img className='bg-slate-500 w-40 mx-auto p-5 rounded-lg' src={logo} alt="" />
-                </a>
+                </Link>
             </div>
-            <div className="navbar-center hidden lg:flex">
+            <div className="navbar-end hidden lg:flex">
                 <ul className="menu menu-horizontal p-0">
                     {menuItems}
                 </ul>

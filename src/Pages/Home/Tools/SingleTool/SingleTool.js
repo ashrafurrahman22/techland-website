@@ -33,6 +33,7 @@ const SingleTool = ({product}) => {
     </div>
   </div>
 </div>
+
         </div>
     );
 };

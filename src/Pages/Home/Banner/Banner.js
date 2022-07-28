@@ -1,9 +1,9 @@
 import React from 'react';
-import banner from '../../../assets/img/banner.jpeg';
+import banner from '../../../assets/heading-pic.jpg';
 
 const Banner = () => {
     return (
-        <div className="hero my-8">
+        <div style={{fontFamily:"Aleo", letterSpacing:"3px"}} className="hero my-8">
             <div className="hero-content flex-col lg:flex-row-reverse">
                 <img src={banner} className="max-w-xl rounded-lg shadow-2xl" />
                 <div className='p-6'>
