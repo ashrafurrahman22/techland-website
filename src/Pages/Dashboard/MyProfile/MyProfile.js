@@ -9,7 +9,7 @@ const MyProfile = () => {
     console.log(user);
 
     return (
-        <div>
+        <div style={{fontFamily:"inter"}}>
             <h2 className="text-3xl font-bold uppercase text-center mt-10">Profile</h2> <hr />
             <div className='mt-7'>
                 <img className='rounded-xl border-0 w-36' src={user?.photoURL} alt="" />

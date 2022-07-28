@@ -1,14 +1,21 @@
 import React, { useEffect, useState } from 'react';
-import useProducts from '../../../Hooks/useProducts';
+// import useProducts from '../../../Hooks/useProducts';
 import SingleTool from './SingleTool/SingleTool';
 
 const Tools = () => {
 
-    const [products] = useProducts();
+    // const [products] = useProducts();
+    const [products, setProducts] = useState([]);
+
+    useEffect(()=>{
+        fetch("data.json")
+        .then(res => res.json())
+        .then(data => setProducts(data))
+    },[])
 
     return (
-        <div className='my-5'>
-            <h2 className="text-xl text-center font-bold uppercase">Computer Parts</h2>
+        <div style={{fontFamily:"aleo", letterSpacing:"2px"}} className='my-5'>
+            <h2 className="text-2xl text-center font-semibold uppercase">Laptop Collection</h2>
             <div className='grid lg:grid-cols-3 sm:grid-cols-1 gap-6'>   
             {
                 products.slice(0, 6).map(product => <SingleTool

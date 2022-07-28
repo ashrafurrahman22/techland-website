@@ -35,27 +35,28 @@ const AddAreview = () => {
     }
 
     return (
-        <div>
+        <div style={{fontFamily:"Inter"}} className='text-White'>
             <h2 className='uppercase text-3xl text-center font-semibold my-2'>add a review</h2>
+            <hr />
             <div className='grid grid-cols-1 gap-6 justify-items-center'>
             <form onSubmit={handleSubmit(hanldeReview)}>
         <label class="label">
-    <span class="label-text">Name</span>
+    <span class="label-text text-white">Name</span>
   </label>
   <input type="text" placeholder="Your Name"  class="input input-bordered w-full max-w-xs mb-2" {...register("name")} required />
   <label class="label">
-    <span class="label-text">Email</span>
+    <span class="label-text text-white">Email</span>
   </label>
   <input type="text" placeholder="Your email" readOnly value={user?.email} class="input input-bordered w-full max-w-xs mb-2 cursor-not-allowed" {...register("email")} />
   <label class="label">
-    <span class="label-text">Ratings</span>
+    <span class="label-text text-white">Ratings</span>
   </label>
   <input type="number" placeholder="Your ratings" class="input input-bordered w-full max-w-xs mb-2" {...register("ratings")} required/>
   <label class="label">
-    <span class="label-text">Review</span>
+    <span class="label-text text-white">Review</span>
   </label>
   <textarea type="text" placeholder="Write Your Review Here" class="input input-bordered w-full max-w-xs mb-2" {...register("review")} required />
-        <input className=' btn  my-3' type="submit" value='Add Review' class="input input-bordered w-full max-w-xs cursor-pointer mx-auto" />
+        <input type="submit" value='Add Review' class="input input-bordered btn hover:btn-primary text-blue-900 w-full max-w-xs cursor-pointer mx-auto" />
         </form>
             </div>
         </div>

@@ -13,24 +13,14 @@ const SingleTool = ({product}) => {
     }
 
     return (
-        <div>
-            <div class="card bg-base-100 shadow-xl">
-  <figure class="px-5 pt-5">
-    <img src={img} alt="Shoes" class="rounded-xl max-w-sm" />
-  </figure>
-  <div class="card-body items-center text-center">
+        <div style={{fontFamily:"aleo"}}>
+            <div class="card card-compact  bg-base-100 text-black shadow-xl">
+  <figure><img src={img} alt="Shoes" /></figure>
+  <div class="card-body">
     <h2 class="card-title">{name}</h2>
-    <div className='text-left my-3'>
-    <p className='text-left'><small>{description}</small></p>
-    <h4 className='text-sm font-bold my-2'>Available Quantity :{available} psc</h4>
-    <h4 className='text-sm font-bold my-1'>Minimum Order: {minOrderQuantity} psc</h4>
-    <h3 className='text-xl font-bold'>Price: ${price}</h3>
-    </div>
-    <div class="card-actions">
-      <button onClick={()=>navigateToProductDetails(product._id)} class="btn btn-primary">
-        
-        Purchase <img src={purchase} className='w-6 rounded-xl' alt="" /></button>
-    </div>
+    <p>{description}</p>
+    <h4 class="card-title">Price : $270</h4>
+    <button className='btn'>Buy Now</button>
   </div>
 </div>
 

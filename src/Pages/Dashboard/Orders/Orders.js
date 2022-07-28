@@ -7,8 +7,9 @@ const Orders = () => {
     const [purchases] = usePurchase();
 
     return (
-        <div>
+        <div style={{fontFamily:"inter"}}>
             <h2 className='uppercase text-3xl text-center font-bold my-5'>Orders</h2>
+            <hr />
             <div className='grid lg:grid-cols-3 gap-6'>
                 {
                     purchases.map(purchase => 
