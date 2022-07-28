@@ -7,7 +7,7 @@ const Review = () => {
     const [reviews] = useReview();
 
     return (
-        <div>
+        <div style={{fontFamily:"inter"}} className='min-h-screen'>
             <h2 className='text-center text-3xl font-semibold'>Reviews</h2>
             <div className='grid lg:grid-cols-3 sm:grid-cols-1 gap-8'>
             {

@@ -4,13 +4,13 @@ const HeadPhoneParts = () => {
     return (
         <div style={{fontFamily:"aleo", letterSpacing:"2px"}} className='my-8 text-black'>
             <h2 className='text-3xl my-5 font-semibold text-white text-center uppercase'>Popular HeadPhones</h2>
-            <div className='lg:grid lg:grid-cols-3 sm:grid-cols-1 gap-8'>
+            <div className='lg:grid lg:grid-cols-4 sm:grid-cols-1 gap-8'>
                 {/* product div */}
                 <div>
                 <div class="card card-compact bg-base-100 shadow-xl">
   <figure><img src="https://i.pinimg.com/originals/54/bf/46/54bf46388f9aa8f01b105d35824bba45.jpg" alt="Shoes" /></figure>
   <div class="card-body">
-    <h2 class="card-title">Hyper X Cloud Stinger</h2>
+    <h2 class="card-title">Hyper X Cloud</h2>
     <p class="card-title font-medium">Price : $56</p>
     <button className='btn'>Buy Now</button>
   </div>
@@ -32,6 +32,16 @@ const HeadPhoneParts = () => {
   <div class="card-body">
     <h2 class="card-title">Corsair Hs50 Pro</h2>
     <p class="card-title font-medium">Price : $73</p>
+    <button className='btn'>Buy Now</button>
+  </div>
+</div>
+                </div>
+                <div>
+                <div class="card card-compact bg-base-100 shadow-xl">
+  <figure><img src="https://improb.com/wp-content/uploads/2018/11/best-headphones-under-150.jpg" /></figure>
+  <div class="card-body">
+    <h2 class="card-title">Sennheiser Pro</h2>
+    <p class="card-title font-medium">Price : $123</p>
     <button className='btn'>Buy Now</button>
   </div>
 </div>
