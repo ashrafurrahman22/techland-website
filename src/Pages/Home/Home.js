@@ -1,15 +1,15 @@
 import React from 'react';
+import OurService from '../OurService/OurService';
 import Banner from './Banner/Banner';
-import BusinessSummary from './BusinessSummary/BusinessSummary';
 import HeadPhoneParts from './HeadPhoneParts/HeadPhoneParts';
 import LatestProducts from './LatestProducts.js/LatestProducts';
-import LatestReview from './LatestReview/LatestReview';
 import Tools from './Tools/Tools';
 
 const Home = () => {
     return (
         <div>
            <Banner></Banner>
+           <OurService></OurService>
            <Tools></Tools>
            <LatestProducts></LatestProducts>
            <HeadPhoneParts></HeadPhoneParts>
