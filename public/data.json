@@ -7,6 +7,7 @@
         "img" : "https://i.ibb.co/W34CW2n/lenovo-ideapad-slim-5-ryzen-5-laptop-2-jpg-250x250.webp"
     },
     {
+            
         "_id" : "2",
         "name" : "MSI Mordern 14 b11s",
         "description" : "The Modern Series features the latest 11th Gen. Intel® Core™ i7 processor, delivering stunning performance and lightweight portability which will keep you in the workflow seamlessly. Especially with Intel Iris® Xe graphics, it provides uncompromised performance.",
@@ -14,6 +15,7 @@
         "img" : "https://i.ibb.co/L9pGg2d/msi-modern-14-b11sb-i5-laptop-3-jpg-250x250.webp"
     },
     {
+            
         "_id" : "3",
         "name" : "Ideapad 3 15iilo5",
         "description" : "Lenovo IdeaPad 3 14 Laptop, 14.0 FHD 1920 x 1080 Display, AMD Ryzen 5 3500U Processor, 8GB DDR4 RAM, 256GB SSD, AMD Radeon Vega 8 Graphics, Narrow Bezel, Windows 10, 81W0003QUS, Abyss Blue. Graphics Coprocessor: AMD Radeon Vega 8 CPU Model: Ryzen 5 3500U",
@@ -21,6 +23,7 @@
         "img" : "https://i.ibb.co/x1z3s85/ideapad-3-15iil05-laptop-03-jpg-250x250.webp"
     },
     {
+            
         "_id" : "4",
         "name" : "HP Favilion 15h",
         "description" : "HP Pavilion Notebook is a Windows 10 laptop with a 15.60-inch display. It is powered by a Core i7 processor and it comes with 8GB of RAM. it comes with 3 USB ports (1 x USB 2.0), HDMI Port, RJ45 (LAN) ports. Dimensions (mm): 361.70 x 241.55 x 17.78",
@@ -28,6 +31,7 @@
         "img" : "https://i.ibb.co/k6yFDSL/hp-pavilion-15-eh1890au-laptop-jpg-250x250.webp"
     },
     {
+            
         "_id" : "5",
         "name" : "Asus-x51ma-4",
         "description" : "Asus X is a Windows 10 laptop with a 15.60-inch display that has a resolution of 1920x1080 pixels. It is powered by a Core i3 processor and it comes with 8GB of RAM. The Asus X packs 512GB of HDD storage. Graphics are powered by Nvidia GeForce 940MX.",
@@ -35,6 +39,7 @@
         "img" : "https://i.ibb.co/NFYn3kv/asus-x515ma-4-jpg-250x250.webp"
     },
     {
+            
         "_id" : "6",
         "name" : "HP EliteBook 25570p",
         "description" : "Buy the HP Elitebook 2570P that is engineered for long-lasting performance. This laptop offers smooth processing and comes with a stylish design. In addition to this, you can easily this laptop in your backpack due to its lightweight and compact design",

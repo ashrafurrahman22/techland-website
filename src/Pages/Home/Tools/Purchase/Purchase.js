@@ -36,7 +36,7 @@ const Purchase = () => {
       })
       .then(res => res.json())
       .then(data => {
-        toast.success('You Successfully Purchased this product')
+        toast.success('You Successfully Ordered this product')
         console.log(data)
         reset();
       } )

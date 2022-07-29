@@ -1,17 +1,10 @@
-import React, { useEffect, useState } from 'react';
-// import useProducts from '../../../Hooks/useProducts';
+import React from 'react';
+import useProducts from '../../../Hooks/useProducts';
 import SingleTool from './SingleTool/SingleTool';
 
 const Tools = () => {
 
-    // const [products] = useProducts();
-    const [products, setProducts] = useState([]);
-
-    useEffect(()=>{
-        fetch("data.json")
-        .then(res => res.json())
-        .then(data => setProducts(data))
-    },[])
+    const [products] = useProducts();
 
     return (
         <div style={{fontFamily:"aleo", letterSpacing:"2px"}} className='my-5'>
