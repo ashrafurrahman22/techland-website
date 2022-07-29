@@ -45,5 +45,58 @@
         "description" : "Buy the HP Elitebook 2570P that is engineered for long-lasting performance. This laptop offers smooth processing and comes with a stylish design. In addition to this, you can easily this laptop in your backpack due to its lightweight and compact design",
         "price" : "1300",
         "img" : "https://i.ibb.co/CM3j4GG/avita-liber-v-ryzen-5-star-silver-4-jpg-250x250.webp"
+    },
+    {
+            
+        "_id" : "7",
+        "name" : "Iphone 13 Pro Max",
+        "description" : "The iPhone 13 Pro and iPhone 13 Pro Max are smartphones designed, developed, and marketed by Apple Inc. They are the flagship smartphones in the fifteenth generation of the iPhone.",
+        "price" : "1200",
+        "img" : "https://www.online-sciences.com/wp-content/uploads/2021/09/Apple-iPhone-13-Pro-Max-45.webp"
+    },
+    {
+            
+        "_id" : "8",
+        "name" : "Iphone 13 Pro Max",
+        "description" : "Samsung Galaxy M13 is a mid-range Android smartphone manufactured by Samsung Electronics as a part of its Galaxy M series. This phone was announced on 27 May 2022.",
+        "price" : "730",
+        "img" : "https://i0.wp.com/gegumall.com/wp-content/uploads/2022/01/latest-samsung-phones-with-price-and-specifications.jpg?fit=1920%2C1080&ssl=1"
+    },
+    {
+            
+        "_id" : "9",
+        "name" : "Iphone 13 Pro Max",
+        "description" : "The OnePlus Nord 25 is an Android-based smartphone manufactured by OnePlus, unveiled on 22 July 2021. It succeeds the original Nord, and is the sixth device in the Nord series.",
+        "price" : "780",
+        "img" : "https://images.techadvisor.com/cmsdata/slideshow/3797756/oneplus_9_pro-06.jpg"
+    },
+    {
+            
+        "_id" : "10",
+        "name" : "Hyper X Cloud",
+        "price" : "170",
+        "img" : "https://i.pinimg.com/originals/54/bf/46/54bf46388f9aa8f01b105d35824bba45.jpg"
+    },
+    {
+            
+        "_id" : "11",
+        "name" : "Razer Kraken X",
+        "price" : "190",
+        "img" : "https://assets3.razerzone.com/5jCMOYhZ07MPW5mMGeufAB709H8=/1500x1000/https%3A%2F%2Fhybrismediaprod.blob.core.windows.net%2Fsys-master-phoenix-images-container%2Fhc9%2Fh02%2F9081231179806%2Frazer-kraken-x-gallery-4.jpg"
+    },
+    {
+            
+        "_id" : "12",
+        "name" : "Corsair Hs50 Pro",
+        "price" : "225",
+        "img" : "https://images.unsplash.com/photo-1599669454699-248893623440?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fGhlYWRwaG9uZXN8ZW58MHx8MHx8&w=1000&q=80"
+    },
+    {
+            
+        "_id" : "13",
+        "name" : "Sennheiser Pro",
+        "price" : "240",
+        "img" : "https://improb.com/wp-content/uploads/2018/11/best-headphones-under-150.jpg"
     }
+
 ]

@@ -4,7 +4,7 @@ import purchase from '../../../../assets/img/purchase.png';
 
 const SingleTool = ({product}) => {
 
-    const {name,img, description, available, minOrderQuantity, price} = product;
+    const {name,img, description, price} = product;
 
     const navigate = useNavigate();
 
