@@ -8,7 +8,7 @@ const LatestProducts = () => {
 
   return (
     <div style={{ fontFamily: "aleo" }} className="my-10 text-black">
-      <h3 className="text-3xl my-5 text-white font-semibold text-center uppercase">
+      <h3 className="text-3xl my-16 text-white font-semibold text-center uppercase">
         Latest Phones
       </h3>
       <div className="grid lg:grid-cols-3 sm:grid-cols-1 gap-8">

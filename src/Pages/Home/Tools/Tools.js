@@ -8,7 +8,7 @@ const Tools = () => {
 
     return (
         <div style={{fontFamily:"aleo", letterSpacing:"2px"}} className='my-5'>
-            <h2 className="text-2xl my-8 text-center font-semibold uppercase">Laptop Collection</h2>
+            <h2 className="text-2xl my-16 text-center font-semibold uppercase">Laptop Collection</h2>
             <div className='grid lg:grid-cols-3 sm:grid-cols-1 gap-6'>   
             {
                 products.slice(0, 6).map(product => <SingleTool

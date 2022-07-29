@@ -1,6 +1,7 @@
+import { faShoppingCart } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import purchase from '../../../../assets/img/purchase.png';
 
 const SingleTool = ({product}) => {
 
@@ -20,7 +21,9 @@ const SingleTool = ({product}) => {
     <h2 class="card-title">{name}</h2>
     <p>{description}</p>
     <h4 class="card-title">Price : ${price}</h4>
-    <button className='btn'>Buy Now</button>
+    <button  onClick={() => navigateToProductDetails(product._id)} className='btn'>Buy Now
+    <FontAwesomeIcon className='ml-4' icon={faShoppingCart}></FontAwesomeIcon>
+    </button>
   </div>
 </div>
 

@@ -6,6 +6,8 @@ import { useAuthState } from 'react-firebase-hooks/auth';
 import { toast } from 'react-toastify';
 import { useForm } from 'react-hook-form';
 import purchase from '../../../../assets/img/purchase.png';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCartShopping } from '@fortawesome/free-solid-svg-icons';
 
 
 const Purchase = () => {
@@ -45,7 +47,7 @@ const Purchase = () => {
 
     return (
         <div style={{fontFamily:"aleo"}} className='mx-auto lg:max-w-xl text-black sm:max-w-sm'>
-            <div class="card w-96 bg-base-100 shadow-xl">
+            <div class="card bg-base-100 shadow-xl">
   <figure class="px-5 pt-5">
     <img src={img} alt="Shoes" class="rounded-xl max-w-sm" />
   </figure>
@@ -53,9 +55,12 @@ const Purchase = () => {
     <h2 class="card-title">{name}</h2>
     <div className='text-left my-3'>
     <p className='text-left'><small>{description}</small></p>
+    <h2 class="card-title my-3">Price: ${price}</h2>
     </div>
     <div class="card-actions">
-<label for="my-modal" class="btn modal-button">Purchase <img src={purchase} className='w-6 rounded-xl' alt="" /></label>
+<label for="my-modal" class="btn modal-button">Order Now
+    <FontAwesomeIcon className='ml-4' icon={faCartShopping}></FontAwesomeIcon>
+</label>
 
 <input type="checkbox" id="my-modal" class="modal-toggle" />
 <div class="modal">
@@ -83,7 +88,7 @@ const Purchase = () => {
         <label class="label">
     <span class="label-text">Email</span>
   </label>
-  <input type="email" name='email' value={user?.email} class="input input-bordered w-full max-w-xs cursor-not-allowed"
+  <input type="email" name='email' value={user?.email} placeholder="your email" class="input input-bordered w-full max-w-xs cursor-not-allowed"
   {...register("email")}
   required />
         <label class="label">
@@ -98,17 +103,11 @@ const Purchase = () => {
   <input type="text" name='phone' placeholder='Contact' class="input input-bordered w-full max-w-xs" 
   {...register("phone")} required
   />
-        <label class="label">
-    <span class="label-text">Available Quantity</span>
-  </label>
-  <input type="text" value={available}  class="input input-bordered w-full max-w-xs cursor-not-allowed"
-  {...register("available")} 
-  />
   
         <label class="label">
     <span class="label-text">Order Quantity</span>
   </label>
-  <input type="number" class="input input-bordered w-full max-w-xs" {...register("order",  { min:{
+  <input type="number" placeholder='Your Order Quantity' class="input input-bordered w-full max-w-xs" {...register("order",  { min:{
       value: parseInt(minOrderQuantity),
       message: 'Order Should be equal or bigger than minimum Order Quantity' 
     }, 
