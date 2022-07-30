@@ -28,9 +28,12 @@ function App() {
                 <Purchase></Purchase>
              }></Route>
             <Route path='/dashboard' element={ <Dashboard></Dashboard> }>
-            <Route index element={ <MyProfile></MyProfile> }></Route>
-            <Route path='/dashboard/editProfile' element={ <EditProfile></EditProfile> }></Route>
-          <Route path="orders" element={ <Orders></Orders> }></Route>
+
+            <Route index element={ <Orders></Orders> }></Route>
+          <Route path="orders" element={  <Orders></Orders>  }></Route>
+          <Route path="profile" element={ <MyProfile></MyProfile> }></Route>
+          <Route path='/dashboard/editProfile' element={ <EditProfile></EditProfile> }></Route>
+
           <Route path="addAreview" element={ <AddAreview></AddAreview> }></Route>
             </Route>
             <Route path='/login' element={ <Login></Login> }></Route>

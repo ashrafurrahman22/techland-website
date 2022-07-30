@@ -2,20 +2,17 @@ import React from 'react';
 
 const SingleReview = (props) => {
 
-    const {name, email, ratings, review} = props.review;
+    const {name, review} = props.review;
 
     return (
-        <div style={{fontFamily:"Raleway", letterSpacing:"0px"}}>
-           <div class="card bg-base-100 text-black shadow-xl">
-  <div class="card-body">
-    <h2 class="text-2xl font-bold text-center">{name}</h2>
-    <h4 class="card-title">{email}</h4>
-    <h4 class="card-title">Ratings : {ratings}</h4>
-
-    <p>{review}</p>
-  </div>
-</div>
+        <div style={{fontFamily:"aleo", letterSpacing:"1px"}}>
+            <div className='card card-body bg-base-200 h-3/3 text-black text-center my-3'>
+          <h2 style={{fontFamily:"Aleo"}} className='text-xl font-bold mt-3'>{name}</h2>
+          <p className='text-left'>{review}</p>
         </div>
+  </div>
+// </div>
+        // </div>
     );
 };
 

@@ -12,10 +12,10 @@ const Dashboard = () => {
         <div class="drawer-side">
             <label for="dashboard-sidebar" class="drawer-overlay"></label>
             <ul class="menu p-4 overflow-y-auto w-48 gap-5 text-white text-base-content">
-                {/* <!-- Sidebar content here --> */}
-                <li><Link to="/dashboard" className='btn text-white'>My Profile</Link></li>
+                
+                <li><Link to="/dashboard" className='btn text-white'>My Orders</Link></li>
+                <li><Link to="/dashboard/profile" className='btn text-white'>My Profile</Link></li>
                 <li><Link to="/dashboard/addareview" className='btn text-white'>Add A Review</Link></li>
-                <li><Link to="/dashboard/orders" className='btn text-white'>My Orders</Link></li>
             </ul>
 
         </div>
