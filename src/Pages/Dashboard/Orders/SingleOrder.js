@@ -5,7 +5,7 @@ const SingleOrder = ({purchase}) => {
 
     const [purchases, setPurchases] = usePurchase();
 
-    const {productName, name, email, phone, order} = purchase;
+    const {productName, name, phone,  order} = purchase;
     // console.log(purchase)
 
     const handleDelete = id =>{
@@ -26,21 +26,15 @@ const SingleOrder = ({purchase}) => {
       }
 
     return (
-        <div>
-            <div class="card bg-neutral text-neutral-content">
-  <div class="card-body items-center text-center">
-    <h2 class="card-title">{productName}</h2>
-    <h2 class="card-title">Order Quantity:{order}</h2>
-    <p>Name: {name}</p>
-    <p>email: {email}</p>
-    <p>Phone: {phone}</p>
-    <div class="card-actions justify-end">
-      <button class="btn btn-primary">Payment</button>
-      <button onClick={()=>handleDelete(purchase._id)} class="btn btn-primary">Cencel</button>
-    </div>
-  </div>
-</div>
-        </div>
+
+    <tr>
+        <td>{productName}</td>
+        <td>{name}</td>
+        <td>{phone}</td>
+        <td>{order}</td>
+        <td><button className='btn'>Payment</button></td>
+        <td><button onClick={()=>handleDelete(purchase._id)} className='btn'>Cencel</button></td>
+      </tr>
     );
 };
 
