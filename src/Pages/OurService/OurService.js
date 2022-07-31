@@ -7,7 +7,7 @@ const OurService = () => {
         <div style={{fontFamily:"aleo", letterSpacing:"2px"}}>
             <h2 className='text-3xl my-8 text-center font-semibold'>Our Products</h2>
 
-                <div className='lg:grid grid-cols-5 gap-8'>
+                <div className='lg:grid grid-cols-5  gap-8'>
 
                 <div className='text-center'>
                 <FontAwesomeIcon style={{color:"#D0F344"}}  className='text-6xl font-medium' icon={faComputer}></FontAwesomeIcon>

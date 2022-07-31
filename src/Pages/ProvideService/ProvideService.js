@@ -7,7 +7,7 @@ const ProvideService = () => {
         <div style={{fontFamily:"aleo",letterSpacing:"3px"}} className='text-white my-16'>
             <h2 className='text-3xl my-6 text-center font-semibold'>Services That We Provide</h2>
 
-            <div className='grid grid-cols-5 gap-2'>
+            <div className='grid lg:grid-cols-5 grid-cols-2 gap-2'>
 
             
             <div className='flex flex-col my-4'>

@@ -9,7 +9,8 @@ const HeadPhoneParts = () => {
 
     return (
         <div style={{fontFamily:"aleo", letterSpacing:"2px"}} className='my-16 text-black'>
-            <h2 className='text-3xl my-12 font-semibold text-white text-center uppercase'>Popular HeadPhones</h2>
+            <h2 className="text-2xl mt-16 text-white text-center font-medium uppercase">Popular Headphones</h2>
+                <div className='border-t mb-8 text-white border-base-300'> </div>
             
 
             <div className='lg:grid lg:grid-cols-4 sm:grid-cols-1 gap-8'>
