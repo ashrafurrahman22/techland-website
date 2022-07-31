@@ -1,19 +1,7 @@
 [
     {
-        "name" : "Santha Uruye",
-        "review" : "This is the best website to purchase computer or tech-related gadget parts. I usually bought different types of parts for my shop from this website. I found it very easy and normal to use. The product of this company is very durable. I always refer people to buy their products from these websites.",
-        "img" : "https://i.pinimg.com/736x/86/6f/4e/866f4ec53671c9d83c9af33a62d87cee.jpg"
-    },
-    {
-        "name" : "Jhon Doe",
-        "review" : "This is the best website to purchase computer or tech-related gadget parts. I usually bought different types of parts for my shop from this website. I found it very easy and normal to use. The product of this company is very durable. I always refer people to buy their products from these websites.",
-        "img" : "https://cdn.luxe.digital/media/2020/08/26155010/best-long-hairstyles-men-smart-business-luxe-digital.jpg"
-    },
-    {
-        "name" : "Jack Dawson",
-        "review" : "This is the best website to purchase computer or tech-related gadget parts. I usually bought different types of parts for my shop from this website. I found it very easy and normal to use. The product of this company is very durable. I always refer people to buy their products from these websites.",
-        "img" : "https://nextluxury.com/wp-content/uploads/Best-Short-Hairstyles-For-Men-1.jpg"
+        "name" : "A4Tech 32p Pro Mouse",
+        "price" : "90",
+        "img" : "https://www.a4tech.com/alanUpload/colorImg/img/201807/2004072006619859.jpg"
     }
-
-
 ]
