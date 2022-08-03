@@ -6,6 +6,7 @@ import { Link, useNavigate, useLocation } from 'react-router-dom';
 import Loading from '../Shared/Loading';
 import google from '../../assets/Social icon/google.png';
 import github from '../../assets/Social icon/github.png';
+import login from '../../assets/man-with-laptop.331dfa07.png';
 
 const Login = () => {
     const [signInWithGoogle, user1, loading1, error1] = useSignInWithGoogle(auth);
@@ -43,10 +44,16 @@ const Login = () => {
     }
 
     return (
-        <div className='flex h-screen justify-center items-center'>
-            <div className="card w-96 bg-base-100 text-black shadow-xl">
+        <div className='py-10 px-10 lg:grid grid-cols-2'>
+            
+            <div className='lg:w-3/4 flex justify-center items-center'>
+                <img src={login} alt="" />
+            </div>
+
+            <div className='lg:flex h-screen justify-center items-center'>
+            <div className="card lg:w-96 bg-base-100 text-black shadow-xl">
                 <div className="card-body">
-                    <h2 style={{fontFamily:"Inter", letterSpacing:"2px"}} className="text-center text-2xl font-bold">Login</h2>
+                    <h2 className="text-center text-2xl font-medium">Login</h2>
                     <form onSubmit={handleSubmit(onSubmit)}>
 
                         <div className="form-control w-full max-w-xs">
@@ -99,7 +106,7 @@ const Login = () => {
                         </div>
 
                         {signInError}
-                        <input  style={{fontFamily:"Inter"}} className='btn w-full max-w-xs text-white' type="submit" value="Login" />
+                        <input className='btn w-full max-w-xs text-white' type="submit" value="Login" />
                     </form>
                     <p><small>New to TechLand ? <Link className='text-primary' to="/signup">Create New Account</Link></small></p>
                     <div className="divider">OR</div>
@@ -114,11 +121,14 @@ const Login = () => {
                         onClick={() => signInWithGithub()}
                         className="btn btn-outline"
                     >
-                        <img className='w-max mr-3' src={github} alt="" />
+                        <img className='lg:w-max lg:mr-3' src={github} alt="" />
                         Continue with Github</button>
                 </div>
             </div>
         </div >
+
+
+        </div>
     );
 };
 
