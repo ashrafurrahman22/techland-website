@@ -6,6 +6,7 @@ import Loading from '../Shared/Loading';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import google from '../../assets/Social icon/google.png';
 import github from '../../assets/Social icon/github.png';
+import login from '../../assets/man-with-laptop.331dfa07.png';
 
 const SignUp = () => {
     const [signInWithGoogle, user, loading, error] = useSignInWithGoogle(auth);
@@ -50,6 +51,13 @@ const SignUp = () => {
         console.log('update done');
     }
     return (
+        <div className='py-10 px-10 lg:grid grid-cols-2'>
+
+<div className='lg:w-3/4 flex justify-center items-center'>
+                <img src={login} alt="" />
+            </div>
+
+
         <div className='flex h-screen justify-center items-center'>
             <div className="card w-96 bg-base-100 text-black shadow-xl">
                 <div className="card-body">
@@ -147,6 +155,7 @@ const SignUp = () => {
                 </div>
             </div>
         </div >
+        </div>
     );
 };
 

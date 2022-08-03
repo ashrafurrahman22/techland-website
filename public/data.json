@@ -1,7 +1,13 @@
 [
     {
-        "name" : "A4Tech 32p Pro Mouse",
-        "price" : "90",
-        "img" : "https://www.a4tech.com/alanUpload/colorImg/img/201807/2004072006619859.jpg"
-    }
+        "name" : "Hyper x cloud",
+        "price" : "170",
+        "img" : "https://i.pinimg.com/originals/54/bf/46/54bf46388f9aa8f01b105d35824bba45.jpg"
+    },
+    {
+        "name" : "SennHeiser Pro",
+        "price" : "240",
+        "img" : "https://improb.com/wp-content/uploads/2018/11/best-headphones-under-150.jpg"
+    },
+
 ]

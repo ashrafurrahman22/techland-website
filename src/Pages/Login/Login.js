@@ -7,6 +7,8 @@ import Loading from '../Shared/Loading';
 import google from '../../assets/Social icon/google.png';
 import github from '../../assets/Social icon/github.png';
 import login from '../../assets/man-with-laptop.331dfa07.png';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faArrowLeft, faArrowRight } from '@fortawesome/free-solid-svg-icons';
 
 const Login = () => {
     const [signInWithGoogle, user1, loading1, error1] = useSignInWithGoogle(auth);
@@ -106,7 +108,8 @@ const Login = () => {
                         </div>
 
                         {signInError}
-                        <input className='btn w-full max-w-xs text-white' type="submit" value="Login" />
+                        <input className='btn w-full max-w-xs text-white' type="submit" value="Login"/>
+                        
                     </form>
                     <p><small>New to TechLand ? <Link className='text-primary' to="/signup">Create New Account</Link></small></p>
                     <div className="divider">OR</div>

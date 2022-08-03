@@ -10,52 +10,52 @@ const OurService = () => {
                 <div className='lg:grid grid-cols-5  gap-8'>
 
                 <div className='text-center'>
-                <FontAwesomeIcon style={{color:"#D0F344"}}  className='text-6xl font-medium' icon={faComputer}></FontAwesomeIcon>
+                <FontAwesomeIcon style={{color:"#D0F344"}}  className='text-5xl font-medium' icon={faComputer}></FontAwesomeIcon>
             <h2 className='text-xl my-2 font-lilght'>Computer</h2>
                 </div>
 
                 <div className='text-center'>
-                <FontAwesomeIcon style={{color:"#D0F344"}}  className='text-6xl font-medium' icon={faLaptopCode}></FontAwesomeIcon>
+                <FontAwesomeIcon style={{color:"#D0F344"}}  className='text-5xl font-medium' icon={faLaptopCode}></FontAwesomeIcon>
             <h2 className='text-xl my-2 font-lilght'>Laptop</h2>
                 </div>
 
                 <div className='text-center'>
-                <FontAwesomeIcon style={{color:"#D0F344"}} className='text-6xl font-medium' icon={faDesktop}></FontAwesomeIcon>
+                <FontAwesomeIcon style={{color:"#D0F344"}} className='text-5xl font-medium' icon={faDesktop}></FontAwesomeIcon>
             <h2 className='text-xl my-2 font-lilght'>Monitor</h2>
                 </div>
 
                 <div className='text-center'>
-                <FontAwesomeIcon style={{color:"#D0F344"}} className='text-6xl font-medium' icon={faMobileScreenButton}></FontAwesomeIcon>
+                <FontAwesomeIcon style={{color:"#D0F344"}} className='text-5xl font-medium' icon={faMobileScreenButton}></FontAwesomeIcon>
             <h2 className='text-xl my-2 font-lilght'>SmartPhones</h2>
                 </div>
 
                 <div className='text-center'>
-                <FontAwesomeIcon style={{color:"#D0F344"}} className='text-6xl font-medium' icon={faTabletScreenButton}></FontAwesomeIcon>
+                <FontAwesomeIcon style={{color:"#D0F344"}} className='text-5xl font-medium' icon={faTabletScreenButton}></FontAwesomeIcon>
             <h2 className='text-xl my-2 font-lilght'>Ipads / Tablets</h2>
                 </div>
 
                 <div className='text-center'>
-                <FontAwesomeIcon style={{color:"#D0F344"}} className='text-6xl font-medium' icon={faMicrochip}></FontAwesomeIcon>
+                <FontAwesomeIcon style={{color:"#D0F344"}} className='text-5xl font-medium' icon={faMicrochip}></FontAwesomeIcon>
             <h2 className='text-xl my-2 font-lilght'>Processor</h2>
                 </div>
 
                 <div className='text-center'>
-                <FontAwesomeIcon style={{color:"#D0F344"}} className='text-6xl font-medium' icon={faHeadphonesSimple}></FontAwesomeIcon>
+                <FontAwesomeIcon style={{color:"#D0F344"}} className='text-5xl font-medium' icon={faHeadphonesSimple}></FontAwesomeIcon>
             <h2 className='text-xl my-2 font-lilght'>Headphone</h2>
                 </div>
 
                 <div className='text-center'>
-                <FontAwesomeIcon style={{color:"#D0F344"}} className='text-6xl font-medium' icon={faComputerMouse}></FontAwesomeIcon>
+                <FontAwesomeIcon style={{color:"#D0F344"}} className='text-5xl font-medium' icon={faComputerMouse}></FontAwesomeIcon>
             <h2 className='text-xl my-2 font-lilght'>Mouse</h2>
                 </div>
 
                 <div className='text-center'>
-                <FontAwesomeIcon style={{color:"#D0F344"}} className='text-6xl font-medium' icon={faKeyboard}></FontAwesomeIcon>
+                <FontAwesomeIcon style={{color:"#D0F344"}} className='text-5xl font-medium' icon={faKeyboard}></FontAwesomeIcon>
             <h2 className='text-xl my-2 font-lilght'>KeyBoard</h2>
                 </div>
 
                 <div className='text-center'>
-                <FontAwesomeIcon style={{color:"#D0F344"}} className='text-6xl font-medium' icon={faCamera}></FontAwesomeIcon>
+                <FontAwesomeIcon style={{color:"#D0F344"}} className='text-5xl font-medium' icon={faCamera}></FontAwesomeIcon>
             <h2 className='text-xl my-2 font-lilght'>Camera</h2>
                 </div>
 

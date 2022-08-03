@@ -1,6 +1,7 @@
 import React from 'react';
 import OurService from '../OurService/OurService';
 import ProvideService from '../ProvideService/ProvideService';
+import Review from '../Reviews/Review';
 import Banner from './Banner/Banner';
 import HeadPhoneParts from './HeadPhoneParts/HeadPhoneParts';
 import LatestProducts from './LatestProducts.js/LatestProducts';
@@ -12,8 +13,9 @@ const Home = () => {
            <Banner></Banner>
            <OurService></OurService>
            <Tools></Tools>
-           {/* <LatestProducts></LatestProducts> */}
-           {/* <HeadPhoneParts></HeadPhoneParts> */}
+           <LatestProducts></LatestProducts>
+           <HeadPhoneParts></HeadPhoneParts>
+           <Review></Review>
            <ProvideService></ProvideService>
         </div>
     );
