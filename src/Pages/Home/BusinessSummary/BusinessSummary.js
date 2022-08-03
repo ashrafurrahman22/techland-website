@@ -1,6 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFileCircleCheck, faSackDollar, faStar, faUserFriends } from '@fortawesome/free-solid-svg-icons';
+import { faFileCircleCheck, faLaptopFile, faSackDollar, faStar, faUserFriends } from '@fortawesome/free-solid-svg-icons';
 import CountUp from 'react-countup';
 
 const BusinessSummary = () => {
@@ -32,7 +32,7 @@ const BusinessSummary = () => {
             <p>Annual Revenue</p>
             </div>
             <div className='text-center'>
-            <FontAwesomeIcon className='text-2xl text-red-500 my-2' icon={faFileCircleCheck}></FontAwesomeIcon>
+            <FontAwesomeIcon className='text-2xl text-red-500 my-2' icon={faLaptopFile}></FontAwesomeIcon>
             <h2 className="text-3xl font-bold ">
             <CountUp 
                 end={100}
