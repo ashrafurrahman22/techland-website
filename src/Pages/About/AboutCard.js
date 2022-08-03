@@ -1,5 +1,5 @@
 import React from 'react';
-import { faClipboardQuestion, faEyeLowVision, faGears, faLightbulb, faMicrophoneLines, faRocket, faSquareArrowUpRight } from '@fortawesome/free-solid-svg-icons';
+import {  faGears, faLightbulb, faMicrophoneLines, faSquareCaretRight } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const AboutCard = () => {
@@ -47,19 +47,19 @@ const AboutCard = () => {
         
 
       <div className='flex items-center text-xl gap-3'>
-            <FontAwesomeIcon style={{color:"#22A55A"}} icon={faSquareArrowUpRight}></FontAwesomeIcon>
+            <FontAwesomeIcon style={{color:"#22A55A"}} icon={faSquareCaretRight}></FontAwesomeIcon>
             <h3 className="font-bold">Quality</h3>
         </div>
       <div className='flex items-center text-xl gap-3'>
-            <FontAwesomeIcon style={{color:"#22A55A"}} icon={faSquareArrowUpRight}></FontAwesomeIcon>
+            <FontAwesomeIcon style={{color:"#22A55A"}} icon={faSquareCaretRight}></FontAwesomeIcon>
             <h3 className='font-bold'>Service</h3>
         </div>
       <div className='flex items-center text-xl gap-3'>
-            <FontAwesomeIcon style={{color:"#22A55A"}} icon={faSquareArrowUpRight}></FontAwesomeIcon>
+            <FontAwesomeIcon style={{color:"#22A55A"}} icon={faSquareCaretRight}></FontAwesomeIcon>
             <h3 className='font-bold'>EFFICIENCY</h3>
         </div>
       <div className='flex items-center text-xl gap-3'>
-            <FontAwesomeIcon style={{color:"#22A55A"}} icon={faSquareArrowUpRight}></FontAwesomeIcon>
+            <FontAwesomeIcon style={{color:"#22A55A"}} icon={faSquareCaretRight}></FontAwesomeIcon>
             <h3 className='font-bold'>INNOVATION</h3>
         </div>
       
