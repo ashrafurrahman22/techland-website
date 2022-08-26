@@ -1,4 +1,5 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import usePurchase from '../../../Hooks/usePurchase';
 
 const SingleOrder = ({purchase}) => {
@@ -7,6 +8,13 @@ const SingleOrder = ({purchase}) => {
 
     const {productName, name, phone,  order} = purchase;
     // console.log(purchase)
+
+    const navigate = useNavigate();
+
+    const navigateToPayment = id =>{
+        navigate(`payment/${id}`);
+    }
+
 
     const handleDelete = id =>{
         const procede = window.confirm('Are You Sure?');
@@ -32,7 +40,7 @@ const SingleOrder = ({purchase}) => {
         <td>{name}</td>
         <td>{phone}</td>
         <td>{order}</td>
-        <td><button className='btn'>Payment</button></td>
+        <td><button onClick={()=>navigateToPayment(purchase._id)}  className='btn'>Payment</button> </td>
         <td><button onClick={()=>handleDelete(purchase._id)} className='btn'>Cencel</button></td>
       </tr>
     );

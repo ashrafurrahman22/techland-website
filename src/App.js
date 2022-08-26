@@ -17,6 +17,7 @@ import { ToastContainer } from 'react-toastify';
 import EditProfile from './Pages/Dashboard/EditProfile/EditProfile';
 import AllProducts from './Pages/AllProducts/AllProducts';
 import About from './Pages/About/About';
+import Payment from './Pages/Dashboard/Payment/Payment';
 
 function App() {
   return (
@@ -39,6 +40,7 @@ function App() {
           <Route path='/dashboard/editProfile' element={ <EditProfile></EditProfile> }></Route>
 
           <Route path="addAreview" element={ <AddAreview></AddAreview> }></Route>
+          <Route path="payment/:id" element={ <Payment></Payment> }></Route>
             </Route>
             <Route path='/login' element={ <Login></Login> }></Route>
             <Route path='/signup' element={<Signup></Signup>}></Route>
